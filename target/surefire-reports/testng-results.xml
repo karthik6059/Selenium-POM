@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-19T17:18:12 IST" name="HRM Test Suite" finished-at="2026-04-19T17:23:30 IST" duration-ms="317638">
+    <groups>
+    </groups>
+    <test started-at="2026-04-19T17:18:12 IST" name="HRM Test 2" finished-at="2026-04-19T17:18:31 IST" duration-ms="19084">
+      <class name="com.toppan.test.DummyTestTwo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.DummyTestTwo@6d167f58]" started-at="2026-04-19T17:18:22 IST" name="setup" finished-at="2026-04-19T17:18:31 IST" duration-ms="9340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyTest2()[pri:0, instance:com.toppan.test.DummyTestTwo@6d167f58]" started-at="2026-04-19T17:18:31 IST" name="dummyTest2" finished-at="2026-04-19T17:18:31 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.DummyTestTwo@6d167f58]" started-at="2026-04-19T17:18:31 IST" name="tearDown" finished-at="2026-04-19T17:18:31 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toppan.test.DummyTestTwo -->
+      <class name="com.toppan.test.DummyTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.toppan.test.DummyTest@4ff8d125]" started-at="2026-04-19T17:18:12 IST" name="loadConfig" finished-at="2026-04-19T17:18:12 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.DummyTest@4ff8d125]" started-at="2026-04-19T17:18:12 IST" name="setup" finished-at="2026-04-19T17:18:21 IST" duration-ms="9044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyTest()[pri:0, instance:com.toppan.test.DummyTest@4ff8d125]" started-at="2026-04-19T17:18:21 IST" name="dummyTest" finished-at="2026-04-19T17:18:21 IST" duration-ms="39" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as part of Testing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as part of Testing
+at com.toppan.test.DummyTest.dummyTest(DummyTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.DummyTest@4ff8d125]" started-at="2026-04-19T17:18:21 IST" name="tearDown" finished-at="2026-04-19T17:18:22 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toppan.test.DummyTest -->
+    </test> <!-- HRM Test 2 -->
+    <test started-at="2026-04-19T17:18:12 IST" name="HRM Test" finished-at="2026-04-19T17:23:30 IST" duration-ms="317638">
+      <class name="com.toppan.test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:13 IST" name="setup" finished-at="2026-04-19T17:18:22 IST" duration-ms="8547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:22 IST" name="setupPages" finished-at="2026-04-19T17:18:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="inValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:22 IST" name="inValidLoginTest" data-provider="inValidLoginData" finished-at="2026-04-19T17:18:25 IST" duration-ms="2957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:25 IST" name="tearDown" finished-at="2026-04-19T17:18:25 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:25 IST" name="setup" finished-at="2026-04-19T17:18:31 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:31 IST" name="setupPages" finished-at="2026-04-19T17:18:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="inValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:31 IST" name="inValidLoginTest" data-provider="inValidLoginData" finished-at="2026-04-19T17:18:34 IST" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:34 IST" name="tearDown" finished-at="2026-04-19T17:18:34 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:34 IST" name="setup" finished-at="2026-04-19T17:18:42 IST" duration-ms="7727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:42 IST" name="setupPages" finished-at="2026-04-19T17:18:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:18:42 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2026-04-19T17:21:01 IST" duration-ms="139225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.LoginPageTest@59cba5a]" started-at="2026-04-19T17:21:01 IST" name="tearDown" finished-at="2026-04-19T17:21:01 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toppan.test.LoginPageTest -->
+      <class name="com.toppan.test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toppan.test.HomePageTest@4b213651]" started-at="2026-04-19T17:21:01 IST" name="setup" finished-at="2026-04-19T17:21:11 IST" duration-ms="9919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.toppan.test.HomePageTest@4b213651]" started-at="2026-04-19T17:21:11 IST" name="setupPages" finished-at="2026-04-19T17:21:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.toppan.test.HomePageTest@4b213651]" started-at="2026-04-19T17:21:11 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-04-19T17:23:29 IST" duration-ms="137951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHRMLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toppan.test.HomePageTest@4b213651]" started-at="2026-04-19T17:23:29 IST" name="tearDown" finished-at="2026-04-19T17:23:30 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toppan.test.HomePageTest -->
+    </test> <!-- HRM Test -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>
