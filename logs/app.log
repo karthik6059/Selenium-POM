@@ -6078,3 +6078,329 @@ Session ID: 1466843cc6fac0a784c805c6ce246c0d
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-19 21:00:18 [main] TRACE BaseClass - Beforesuite: Entry of method loadConfig
+2026-04-19 21:00:18 [main] DEBUG BaseClass - Attmpting to load config file
+2026-04-19 21:00:18 [main] INFO  BaseClass - Success - Config.property file is loaded
+2026-04-19 21:00:18 [main] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:18 [TestNG-tests-2] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:18 [TestNG-tests-2] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:00:19 [TestNG-tests-1] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:19 [TestNG-tests-1] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:00:24 [TestNG-tests-2] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:00:24 [TestNG-tests-1] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:00:24 [TestNG-tests-1] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:00:24 [TestNG-tests-2] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:00:24 [TestNG-tests-1] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:00:24 [TestNG-tests-2] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:00:24 [TestNG-tests-2] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:00:24 [TestNG-tests-1] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:00:30 [TestNG-tests-1] INFO  BaseClass - navigated to the application url
+2026-04-19 21:00:30 [TestNG-tests-2] INFO  BaseClass - navigated to the application url
+2026-04-19 21:00:32 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-04-19 21:00:32 [TestNG-tests-1] INFO  LoginPageTest - login with in valid credentials
+2026-04-19 21:00:32 [TestNG-tests-1] INFO  LoginPage - Login with credentials admin1:admin123
+2026-04-19 21:00:32 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2026-04-19 21:00:32 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-04-19 21:00:32 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: username-->admin1
+2026-04-19 21:00:33 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2026-04-19 21:00:33 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-04-19 21:00:33 [TestNG-tests-2] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:33 [TestNG-tests-2] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:00:33 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2026-04-19 21:00:33 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element with text: Login
+2026-04-19 21:00:34 [TestNG-tests-2] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:00:34 [TestNG-tests-2] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:00:34 [TestNG-tests-2] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:00:34 [TestNG-tests-2] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:00:35 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Invalid credentials
+2026-04-19 21:00:35 [TestNG-tests-1] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:35 [TestNG-tests-1] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:00:36 [TestNG-tests-1] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:00:36 [TestNG-tests-1] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:00:36 [TestNG-tests-1] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:00:36 [TestNG-tests-1] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:00:37 [TestNG-tests-1] INFO  BaseClass - navigated to the application url
+2026-04-19 21:00:39 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-04-19 21:00:39 [TestNG-tests-1] INFO  LoginPageTest - login with in valid credentials
+2026-04-19 21:00:39 [TestNG-tests-1] INFO  LoginPage - Login with credentials admin:admin@123
+2026-04-19 21:00:41 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2026-04-19 21:00:41 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: username-->admin
+2026-04-19 21:00:41 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2026-04-19 21:00:42 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-04-19 21:00:42 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2026-04-19 21:00:42 [TestNG-tests-2] INFO  BaseClass - navigated to the application url
+2026-04-19 21:00:42 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element with text: Login
+2026-04-19 21:00:43 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Invalid credentials
+2026-04-19 21:00:44 [TestNG-tests-1] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:00:44 [TestNG-tests-1] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:00:44 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-04-19 21:00:45 [TestNG-tests-1] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:00:45 [TestNG-tests-1] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:00:45 [TestNG-tests-1] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:00:45 [TestNG-tests-1] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:00:50 [TestNG-tests-1] INFO  BaseClass - navigated to the application url
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  LoginPageTest - login with valid credentials
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  LoginPage - Login with credentials Admin:admin123
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-04-19 21:00:52 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2026-04-19 21:00:53 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-04-19 21:00:53 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2026-04-19 21:00:53 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element with text: Login
+2026-04-19 21:00:53 [TestNG-tests-1] INFO  HomePage - verify admin tab is visible
+2026-04-19 21:00:55 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/i
+2026-04-19 21:00:55 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/i
+2026-04-19 21:00:55 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Admin
+2026-04-19 21:00:56 [TestNG-tests-1] INFO  ActionDriver - Element is displayed Element with text: Admin
+2026-04-19 21:00:56 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[1]/i
+2026-04-19 21:00:56 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[1]/i
+2026-04-19 21:01:27 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.className: oxd-userdropdown-name
+2026-04-19 21:01:37 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color red to element: Element located using: By.className: oxd-userdropdown-name
+2026-04-19 21:02:38 [TestNG-tests-1] WARN  ActionDriver - Failed to apply the border to an element: Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5d63365f11d31379232e0104be6ba3f, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59836}, goog:processID: 9440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59836/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5d63365f11d31379232e0104be6ba3f
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5d63365f11d31379232e0104be6ba3f, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59836}, goog:processID: 9440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59836/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5d63365f11d31379232e0104be6ba3f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at com.toppan.actiondriver.ActionDriver.applyBorder(ActionDriver.java:246) ~[classes/:?]
+	at com.toppan.actiondriver.ActionDriver.click(ActionDriver.java:46) ~[classes/:?]
+	at com.toppan.pages.HomePage.logout(HomePage.java:81) ~[classes/:?]
+	at com.toppan.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:40) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-19 21:03:08 [TestNG-tests-1] WARN  ActionDriver - Failed to apply the border to an element: Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5d63365f11d31379232e0104be6ba3f, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59836}, goog:processID: 9440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59836/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5d63365f11d31379232e0104be6ba3f
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5d63365f11d31379232e0104be6ba3f, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59836}, goog:processID: 9440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59836/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5d63365f11d31379232e0104be6ba3f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at com.toppan.actiondriver.ActionDriver.applyBorder(ActionDriver.java:246) ~[classes/:?]
+	at com.toppan.actiondriver.ActionDriver.click(ActionDriver.java:51) ~[classes/:?]
+	at com.toppan.pages.HomePage.logout(HomePage.java:81) ~[classes/:?]
+	at com.toppan.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:40) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-19 21:03:11 [TestNG-tests-1] TRACE BaseClass - Exit-from before suite
+2026-04-19 21:03:11 [TestNG-tests-1] DEBUG BaseClass - Setting up the browser - Based on Browser type
+2026-04-19 21:03:13 [TestNG-tests-1] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-19 21:03:13 [TestNG-tests-1] TRACE BaseClass - Entry of method configureBrowser
+2026-04-19 21:03:13 [TestNG-tests-1] DEBUG BaseClass - Configuring implicit wait
+2026-04-19 21:03:13 [TestNG-tests-1] INFO  BaseClass - browser window is maximsied
+2026-04-19 21:03:21 [TestNG-tests-1] INFO  BaseClass - navigated to the application url
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  LoginPage - Login with credentials Admin:admin123
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2026-04-19 21:03:23 [TestNG-tests-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-04-19 21:03:24 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2026-04-19 21:03:25 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element with text: Login
+2026-04-19 21:03:26 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/i
+2026-04-19 21:03:26 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/i
+2026-04-19 21:03:27 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[contains(@class, 'oxd-brand-banner')]//img
+2026-04-19 21:03:27 [TestNG-tests-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //div[contains(@class, 'oxd-brand-banner')]//img
+2026-04-19 21:03:28 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[1]/i
+2026-04-19 21:03:28 [TestNG-tests-1] INFO  ActionDriver - Double-clicked on element --> Element located using: By.xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[1]/i
+2026-04-19 21:03:59 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element: Element located using: By.className: oxd-userdropdown-name
+2026-04-19 21:04:09 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color red to element: Element located using: By.className: oxd-userdropdown-name
+2026-04-19 21:05:11 [TestNG-tests-1] WARN  ActionDriver - Failed to apply the border to an element: Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbb98499a5a2e4792b390e9b62467c4b, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, goog:processID: 19788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb98499a5a2e4792b390e9b62467c4b
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbb98499a5a2e4792b390e9b62467c4b, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, goog:processID: 19788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb98499a5a2e4792b390e9b62467c4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at com.toppan.actiondriver.ActionDriver.applyBorder(ActionDriver.java:246) ~[classes/:?]
+	at com.toppan.actiondriver.ActionDriver.click(ActionDriver.java:46) ~[classes/:?]
+	at com.toppan.pages.HomePage.logout(HomePage.java:81) ~[classes/:?]
+	at com.toppan.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-19 21:05:41 [TestNG-tests-1] WARN  ActionDriver - Failed to apply the border to an element: Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbb98499a5a2e4792b390e9b62467c4b, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, goog:processID: 19788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb98499a5a2e4792b390e9b62467c4b
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbb98499a5a2e4792b390e9b62467c4b, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\kirth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, goog:processID: 19788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb98499a5a2e4792b390e9b62467c4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at com.toppan.actiondriver.ActionDriver.applyBorder(ActionDriver.java:246) ~[classes/:?]
+	at com.toppan.actiondriver.ActionDriver.click(ActionDriver.java:51) ~[classes/:?]
+	at com.toppan.pages.HomePage.logout(HomePage.java:81) ~[classes/:?]
+	at com.toppan.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
